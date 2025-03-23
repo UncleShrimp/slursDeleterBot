@@ -17,7 +17,7 @@ namespace botScript
 
         static void Main(string[] args)
         {
-            var bot = new TelegramBotClient("7095799167:AAHoPWwniRWkHHKZrs9aa3HS3TA2lsk3cSI");
+            var bot = new TelegramBotClient("token");
             bot.StartReceiving(UpdateHandler, ErrorHandler);
             Console.WriteLine("Bot started");
             Console.ReadLine();
